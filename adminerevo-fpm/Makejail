@@ -1,0 +1,4 @@
+OPTION virtualnet=:<random> default
+OPTION nat
+
+INCLUDE gh+AppJail-makejails/adminerevo --file build-with-php-fpm.makejail

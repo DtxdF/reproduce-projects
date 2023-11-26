@@ -1,0 +1,3 @@
+OPTION template=/usr/local/share/examples/appjail/templates/linux.conf
+
+INCLUDE gh+AppJail-makejails/alpine-linux --file build.makejail

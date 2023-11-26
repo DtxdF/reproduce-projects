@@ -1,0 +1,6 @@
+OPTION alias
+OPTION virtualnet=:appjail0 default
+OPTION nat
+OPTION template=/usr/local/share/examples/appjail/templates/linux.conf
+
+INCLUDE gh+AppJail-makejails/brave --file build.makejail

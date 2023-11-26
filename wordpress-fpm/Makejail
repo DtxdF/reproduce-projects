@@ -1,0 +1,4 @@
+OPTION virtualnet=:<random> default
+OPTION nat
+
+INCLUDE gh+AppJail-makejails/wordpress --file build-with-php-fpm.makejail

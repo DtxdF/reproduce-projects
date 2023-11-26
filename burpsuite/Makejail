@@ -1,0 +1,6 @@
+OPTION alias
+OPTION virtualnet=:appjail0 default
+OPTION nat
+OPTION template=files/template.conf
+
+INCLUDE gh+AppJail-makejails/burpsuite --file build.makejail

@@ -1,0 +1,6 @@
+-f var/log/*
+-f var/cache/pkg/*
+-rf usr/local/etc/pkg
+-f var/run/* 2> /dev/null || :
+-rf tmp/gonic-jukebox-*
+-f var/db/gonic/data/*

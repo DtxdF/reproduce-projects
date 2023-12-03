@@ -1,2 +1,2 @@
-INCLUDE options/network.makejail
+INCLUDE options/options.makejail
 INCLUDE gh+AppJail-makejails/gonic --file build.makejail

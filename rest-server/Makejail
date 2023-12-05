@@ -1,0 +1,4 @@
+OPTION virtualnet=:<random> default
+OPTION nat
+
+INCLUDE gh+AppJail-makejails/rest-server --file build.makejail

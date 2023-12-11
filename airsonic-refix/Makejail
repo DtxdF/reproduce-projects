@@ -1,0 +1,2 @@
+INCLUDE options/network.makejail
+INCLUDE gh+AppJail-makejails/airsonic-refix --file build.makejail

@@ -1,0 +1,4 @@
+OPTION virtualnet=:<random> default
+OPTION nat
+
+INCLUDE gh+AppJail-makejails/wireguard --file build.makejail

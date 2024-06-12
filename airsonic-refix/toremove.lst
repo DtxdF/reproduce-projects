@@ -1,5 +1,4 @@
 -f var/log/* 2> /dev/null || :
 -f var/log/nginx/*
 -f var/cache/pkg/*
--rf usr/local/etc/pkg
 -f var/run/* 2> /dev/null || :

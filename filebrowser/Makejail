@@ -1,2 +1,4 @@
-INCLUDE options/network.makejail
+OPTION virtualnet=:<random> default
+OPTION nat
+
 INCLUDE gh+AppJail-makejails/filebrowser --file build.makejail

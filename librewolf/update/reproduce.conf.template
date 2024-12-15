@@ -1,0 +1,16 @@
+# Options
+arch: amd64
+remove_rc_vars: defaultrouter
+
+# Arguments
+
+args: librewolf_enable_3d
+args+: librewolf_enable_webcamd
+
+# Tags
+
+tags: %%TAG1%%-full/%%TAG1%%-RELEASE
+%%TAG1%%-full.args.librewolf_enable_webcamd: 1
+
+tags+: %%TAG2%%-full/%%TAG2%%-RELEASE
+%%TAG2%%-full.args.librewolf_enable_webcamd: 1

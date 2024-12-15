@@ -1,0 +1,30 @@
+# Options
+arch: amd64
+remove_rc_vars: defaultrouter
+
+# Arguments
+args: php_tag
+args+: php_use_fpm
+args+: php_ajspec
+
+# Tags
+
+tags+: %%TAG1%%-php%%PHP1%%-fpm-%%VERSION%%/%%TAG1%%-RELEASE
+%%TAG1%%-php%%PHP1%%-fpm-%%VERSION%%.args.php_tag: %%TAG1%%-%%PHP1%%
+%%TAG1%%-php%%PHP1%%-fpm-%%VERSION%%.args.php_use_fpm: 1
+%%TAG1%%-php%%PHP1%%-fpm-%%VERSION%%.args.php_ajspec: reproduce+php:%%TAG1%%-%%PHP1%%
+
+tags+: %%TAG1%%-php%%PHP2%%-fpm-%%VERSION%%/%%TAG1%%-RELEASE
+%%TAG1%%-php%%PHP2%%-fpm-%%VERSION%%.args.php_tag: %%TAG1%%-%%PHP2%%
+%%TAG1%%-php%%PHP2%%-fpm-%%VERSION%%.args.php_use_fpm: 1
+%%TAG1%%-php%%PHP2%%-fpm-%%VERSION%%.args.php_ajspec: reproduce+php:%%TAG1%%-%%PHP2%%
+
+tags+: %%TAG2%%-php%%PHP1%%-fpm-%%VERSION%%/%%TAG2%%-RELEASE
+%%TAG2%%-php%%PHP1%%-fpm-%%VERSION%%.args.php_tag: %%TAG2%%-%%PHP1%%
+%%TAG2%%-php%%PHP1%%-fpm-%%VERSION%%.args.php_use_fpm: 1
+%%TAG2%%-php%%PHP1%%-fpm-%%VERSION%%.args.php_ajspec: reproduce+php:%%TAG2%%-%%PHP1%%
+
+tags+: %%TAG2%%-php%%PHP2%%-fpm-%%VERSION%%/%%TAG2%%-RELEASE
+%%TAG2%%-php%%PHP2%%-fpm-%%VERSION%%.args.php_tag: %%TAG2%%-%%PHP2%%
+%%TAG2%%-php%%PHP2%%-fpm-%%VERSION%%.args.php_use_fpm: 1
+%%TAG2%%-php%%PHP2%%-fpm-%%VERSION%%.args.php_ajspec: reproduce+php:%%TAG2%%-%%PHP2%%

@@ -1,0 +1,6 @@
+tags: %%TAG1%%/%%TAG1%%-RELEASE %%TAG2%%/%%TAG2%%-RELEASE
+arch: amd64
+remove_rc_vars: defaultrouter
+args: airsonic_refix_options
+%%TAG1%%.args.airsonic_refix_options: ${REPRODUCE_PROJECTDIR}/options/network.makejail
+%%TAG2%%.args.airsonic_refix_options: ${REPRODUCE_PROJECTDIR}/options/network.makejail

@@ -1,0 +1,9 @@
+# Options
+arch: amd64
+remove_rc_vars: defaultrouter
+
+# Tags
+
+tags: %%TAG1%%-php%%PHP_TAG%%-fpm/%%TAG1%%-RELEASE
+
+tags+: %%TAG2%%-php%%PHP_TAG%%-fpm/%%TAG2%%-RELEASE

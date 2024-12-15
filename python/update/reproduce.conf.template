@@ -1,0 +1,66 @@
+# Options
+arch: amd64
+remove_rc_vars: defaultrouter
+
+# Arguments
+
+args: python_major
+args+: python_minor
+
+# Tags
+
+tags: %%TAG1%%/%%TAG1%%-RELEASE
+
+tags+: %%TAG1%%-3/%%TAG1%%-RELEASE
+%%TAG1%%-3.args.python_major: 3
+
+tags+: %%TAG1%%-311/%%TAG1%%-RELEASE
+%%TAG1%%-311.args.python_major: 3
+%%TAG1%%-311.args.python_minor: 11
+
+tags+: %%TAG1%%-310/%%TAG1%%-RELEASE
+%%TAG1%%-310.args.python_major: 3
+%%TAG1%%-310.args.python_minor: 10
+
+tags+: %%TAG1%%-39/%%TAG1%%-RELEASE
+%%TAG1%%-39.args.python_major: 3
+%%TAG1%%-39.args.python_minor: 9
+
+tags+: %%TAG1%%-38/%%TAG1%%-RELEASE
+%%TAG1%%-38.args.python_major: 3
+%%TAG1%%-38.args.python_minor: 8
+
+tags+: %%TAG1%%-2/%%TAG1%%-RELEASE
+%%TAG1%%-2.args.python_major: 2
+
+tags+: %%TAG1%%-27/%%TAG1%%-RELEASE
+%%TAG1%%-27.args.python_major: 2
+%%TAG1%%-27.args.python_minor: 7
+
+tags+: %%TAG2%%/%%TAG2%%-RELEASE
+
+tags+: %%TAG2%%-3/%%TAG2%%-RELEASE
+%%TAG2%%-3.args.python_major: 3
+
+tags+: %%TAG2%%-311/%%TAG2%%-RELEASE
+%%TAG2%%-311.args.python_major: 3
+%%TAG2%%-311.args.python_minor: 11
+
+tags+: %%TAG2%%-310/%%TAG2%%-RELEASE
+%%TAG2%%-310.args.python_major: 3
+%%TAG2%%-310.args.python_minor: 10
+
+tags+: %%TAG2%%-39/%%TAG2%%-RELEASE
+%%TAG2%%-39.args.python_major: 3
+%%TAG2%%-39.args.python_minor: 9
+
+tags+: %%TAG2%%-38/%%TAG2%%-RELEASE
+%%TAG2%%-38.args.python_major: 3
+%%TAG2%%-38.args.python_minor: 8
+
+tags+: %%TAG2%%-2/%%TAG2%%-RELEASE
+%%TAG2%%-2.args.python_major: 2
+
+tags+: %%TAG2%%-27/%%TAG2%%-RELEASE
+%%TAG2%%-27.args.python_major: 2
+%%TAG2%%-27.args.python_minor: 7

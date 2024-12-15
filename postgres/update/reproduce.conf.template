@@ -1,0 +1,40 @@
+# Options
+remove_rc_vars: defaultrouter
+arch: amd64
+
+# Arguments
+args: pg_version
+
+# %%TAG1%%-RELEASE
+
+tags+: %%TAG1%%-%%POSTGRES1%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%POSTGRES1%%.args.pg_version: %%POSTGRES1%%
+
+tags+: %%TAG1%%-%%POSTGRES2%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%POSTGRES2%%.args.pg_version: %%POSTGRES2%%
+
+tags+: %%TAG1%%-%%POSTGRES3%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%POSTGRES2%%.args.pg_version: %%POSTGRES3%%
+
+tags+: %%TAG1%%-%%POSTGRES4%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%POSTGRES4%%.args.pg_version: %%POSTGRES4%%
+
+tags+: %%TAG1%%-%%POSTGRES5%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%POSTGRES5%%.args.pg_version: %%POSTGRES5%%
+
+# %%TAG2%%-RELEASE
+
+tags+: %%TAG2%%-%%POSTGRES1%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%POSTGRES1%%.args.pg_version: %%POSTGRES1%%
+
+tags+: %%TAG2%%-%%POSTGRES2%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%POSTGRES2%%.args.pg_version: %%POSTGRES2%%
+
+tags+: %%TAG2%%-%%POSTGRES3%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%POSTGRES3%%.args.pg_version: %%POSTGRES3%%
+
+tags+: %%TAG2%%-%%POSTGRES4%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%POSTGRES4%%.args.pg_version: %%POSTGRES4%%
+
+tags+: %%TAG2%%-%%POSTGRES5%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%POSTGRES5%%.args.pg_version: %%POSTGRES5%%

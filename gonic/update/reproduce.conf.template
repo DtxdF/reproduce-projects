@@ -1,0 +1,33 @@
+# Options
+arch: amd64
+remove_rc_vars: defaultrouter
+ignore_osarch: YES
+ignore_osversion: YES
+ignore_release: YES
+
+# Arguments
+args: gonic_options
+args+: gonic_jukebox
+args+: gonic_transcode_audio
+
+# Tags
+
+tags: %%TAG1%%-full/%%TAG1%%-RELEASE
+%%TAG1%%-full.args.gonic_options: ${REPRODUCE_PROJECTDIR}/options/options.makejail
+%%TAG1%%-full.args.gonic_jukebox: 1
+%%TAG1%%-full.args.gonic_transcode_audio: 1
+
+tags+: %%TAG1%%-minimal/%%TAG1%%-RELEASE
+%%TAG1%%-minimal.args.gonic_options: ${REPRODUCE_PROJECTDIR}/options/options.makejail
+%%TAG1%%-minimal.args.gonic_jukebox: 0
+%%TAG1%%-minimal.args.gonic_transcode_audio: 0
+
+tags+: %%TAG2%%-full/%%TAG2%%-RELEASE
+%%TAG2%%-full.args.gonic_options: ${REPRODUCE_PROJECTDIR}/options/options.makejail
+%%TAG2%%-full.args.gonic_jukebox: 1
+%%TAG2%%-full.args.gonic_transcode_audio: 1
+
+tags+: %%TAG2%%-minimal/%%TAG2%%-RELEASE
+%%TAG2%%-minimal.args.gonic_options: ${REPRODUCE_PROJECTDIR}/options/options.makejail
+%%TAG2%%-minimal.args.gonic_jukebox: 0
+%%TAG2%%-minimal.args.gonic_transcode_audio: 0

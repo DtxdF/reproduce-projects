@@ -1,0 +1,39 @@
+# Options
+remove_rc_vars: defaultrouter
+arch: amd64
+
+# Arguments
+args: apache_with_php
+args+: apache_php_version
+
+# %%TAG1%%-RELEASE
+
+tags: %%TAG1%%/%%TAG1%%-RELEASE
+tags+: %%TAG1%%-php%%PHP3%%/%%TAG1%%-RELEASE
+tags+: %%TAG1%%-php%%PHP2%%/%%TAG1%%-RELEASE
+tags+: %%TAG1%%-php%%PHP1%%/%%TAG1%%-RELEASE
+
+%%TAG1%%-php%%PHP3%%.args.apache_with_php: 1
+%%TAG1%%-php%%PHP3%%.args.apache_php_version: %%PHP3%%
+
+%%TAG1%%-php%%PHP2%%.args.apache_with_php: 1
+%%TAG1%%-php%%PHP2%%.args.apache_php_version: %%PHP2%%
+
+%%TAG1%%-php%%PHP1%%.args.apache_with_php: 1
+%%TAG1%%-php%%PHP1%%.args.apache_php_version: %%PHP1%%
+
+# %%TAG2%%-RELEASE
+
+tags+: %%TAG2%%/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-php%%PHP3%%/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-php%%PHP2%%/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-php%%PHP1%%/%%TAG2%%-RELEASE
+
+%%TAG2%%-php%%PHP3%%.args.apache_with_php: 1
+%%TAG2%%-php%%PHP3%%.args.apache_php_version: %%PHP3%%
+
+%%TAG2%%-php%%PHP2%%.args.apache_with_php: 1
+%%TAG2%%-php%%PHP2%%.args.apache_php_version: %%PHP2%%
+
+%%TAG2%%-php%%PHP1%%.args.apache_with_php: 1
+%%TAG2%%-php%%PHP1%%.args.apache_php_version: %%PHP1%%

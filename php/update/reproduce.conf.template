@@ -1,0 +1,32 @@
+# Options
+arch: amd64
+remove_rc_vars: defaultrouter
+
+# Arguments
+args: php_version
+
+# Tags
+
+tags: %%TAG1%%-%%PHP4%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%PHP4%%.args.php_version: %%PHP4%%
+
+tags+: %%TAG1%%-%%PHP3%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%PHP3%%.args.php_version: %%PHP3%%
+
+tags+: %%TAG1%%-%%PHP2%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%PHP2%%.args.php_version: %%PHP2%%
+
+tags+: %%TAG1%%-%%PHP1%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%PHP1%%.args.php_version: %%PHP1%%
+
+tags+: %%TAG2%%-%%PHP4%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%PHP4%%.args.php_version: %%PHP4%%
+
+tags+: %%TAG2%%-%%PHP3%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%PHP3%%.args.php_version: %%PHP3%%
+
+tags+: %%TAG2%%-%%PHP2%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%PHP2%%.args.php_version: %%PHP2%%
+
+tags+: %%TAG2%%-%%PHP1%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%PHP1%%.args.php_version: %%PHP1%%

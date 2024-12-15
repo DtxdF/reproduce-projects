@@ -1,0 +1,15 @@
+# Options
+arch: amd64
+remove_rc_vars: defaultrouter
+
+# Arguments
+
+args: metube_builder_options
+
+# Tags
+
+tags: %%TAG1%%/%%TAG1%%-RELEASE
+%%TAG1%%.args.metube_builder_options: ${REPRODUCE_PROJECTDIR}/options/network.makejail
+
+tags+: %%TAG2%%/%%TAG2%%-RELEASE
+%%TAG2%%.args.metube_builder_options: ${REPRODUCE_PROJECTDIR}/options/network.makejail

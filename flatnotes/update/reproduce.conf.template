@@ -1,0 +1,9 @@
+tags: %%TAG1%%/%%TAG1%%-RELEASE %%TAG2%%/%%TAG2%%-RELEASE
+arch: amd64
+remove_rc_vars: defaultrouter
+ignore_osarch: YES
+ignore_osversion: YES
+ignore_release: YES
+args: flatnotes_options
+%%TAG1%%.args.flatnotes_options: ${REPRODUCE_PROJECTDIR}/options/options.makejail
+%%TAG2%%.args.flatnotes_options: ${REPRODUCE_PROJECTDIR}/options/options.makejail

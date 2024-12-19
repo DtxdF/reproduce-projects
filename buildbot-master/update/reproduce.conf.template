@@ -1,3 +1,3 @@
-tags: %%TAG1%%/%%TAG1%%-RELEASE %%TAG2%%/%%TAG2%%-RELEASE
+tags: %%TAG1%%-master/%%TAG1%%-RELEASE %%TAG2%%-master/%%TAG2%%-RELEASE
 arch: amd64
 remove_rc_vars: defaultrouter

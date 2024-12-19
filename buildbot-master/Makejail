@@ -1,0 +1,4 @@
+OPTION virtualnet=:<random> default
+OPTION nat
+
+INCLUDE gh+AppJail-makejails/buildbot --file build-master.makejail

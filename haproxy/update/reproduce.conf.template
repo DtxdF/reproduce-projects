@@ -1,0 +1,20 @@
+# Options
+arch: amd64
+remove_rc_vars: defaultrouter
+
+# Arguments
+args: haproxy_install_dataplaneapi
+
+# Tags
+
+tags: %%TAG1%%/%%TAG1%%-RELEASE
+%%TAG1%%.args.haproxy_install_dataplaneapi: 0
+
+tags+: %%TAG2%%/%%TAG2%%-RELEASE
+%%TAG2%%-dataplaneapi.args.haproxy_install_dataplaneapi: 0
+
+tags+: %%TAG1%%-dataplaneapi/%%TAG1%%-RELEASE
+%%TAG1%%-dataplaneapi.args.haproxy_install_dataplaneapi: 1
+
+tags+: %%TAG2%%-dataplaneapi/%%TAG2%%-RELEASE
+%%TAG2%%-dataplaneapi.args.haproxy_install_dataplaneapi: 1

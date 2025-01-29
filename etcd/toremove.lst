@@ -1,0 +1,3 @@
+-f var/log/*
+-f var/cache/pkg/*
+-f var/run/* 2> /dev/null || :

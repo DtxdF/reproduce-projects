@@ -1,0 +1,4 @@
+-f var/log/* 2> /dev/null || :
+-f var/log/nginx/*
+-f var/cache/pkg/*
+-f var/run/* 2> /dev/null || :

@@ -1,0 +1,9 @@
+tags: %%TAG1%%-minimal/%%TAG1%%-PKGBASE %%TAG1%%-full/%%TAG1%%-PKGBASE
+arch: amd64
+ignore_osversion: YES
+ignore_osarch: YES
+ignore_release: YES
+ignore_external: YES
+args: pkgbase_full
+%%TAG1%%-minimal.args.pkgbase_full: 0
+%%TAG1%%-full.args.pkgbase_full: 1

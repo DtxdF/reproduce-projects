@@ -1,0 +1,3 @@
+OPTION template=/usr/local/share/examples/appjail/templates/freebsd-oci.conf
+
+INCLUDE gh+AppJail-makejails/pkgbase --file build.makejail

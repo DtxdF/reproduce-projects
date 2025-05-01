@@ -18,6 +18,10 @@ tags+: %%TAG1%%-311/%%TAG1%%-RELEASE
 %%TAG1%%-311.args.python_major: 3
 %%TAG1%%-311.args.python_minor: 11
 
+tags+: %%TAG1%%-312/%%TAG1%%-RELEASE
+%%TAG1%%-312.args.python_major: 3
+%%TAG1%%-312.args.python_minor: 12
+
 tags+: %%TAG1%%-310/%%TAG1%%-RELEASE
 %%TAG1%%-310.args.python_major: 3
 %%TAG1%%-310.args.python_minor: 10
@@ -25,10 +29,6 @@ tags+: %%TAG1%%-310/%%TAG1%%-RELEASE
 tags+: %%TAG1%%-39/%%TAG1%%-RELEASE
 %%TAG1%%-39.args.python_major: 3
 %%TAG1%%-39.args.python_minor: 9
-
-tags+: %%TAG1%%-38/%%TAG1%%-RELEASE
-%%TAG1%%-38.args.python_major: 3
-%%TAG1%%-38.args.python_minor: 8
 
 tags+: %%TAG1%%-2/%%TAG1%%-RELEASE
 %%TAG1%%-2.args.python_major: 2
@@ -42,6 +42,10 @@ tags+: %%TAG2%%/%%TAG2%%-RELEASE
 tags+: %%TAG2%%-3/%%TAG2%%-RELEASE
 %%TAG2%%-3.args.python_major: 3
 
+tags+: %%TAG2%%-312/%%TAG2%%-RELEASE
+%%TAG2%%-312.args.python_major: 3
+%%TAG2%%-312.args.python_minor: 12
+
 tags+: %%TAG2%%-311/%%TAG2%%-RELEASE
 %%TAG2%%-311.args.python_major: 3
 %%TAG2%%-311.args.python_minor: 11
@@ -53,10 +57,6 @@ tags+: %%TAG2%%-310/%%TAG2%%-RELEASE
 tags+: %%TAG2%%-39/%%TAG2%%-RELEASE
 %%TAG2%%-39.args.python_major: 3
 %%TAG2%%-39.args.python_minor: 9
-
-tags+: %%TAG2%%-38/%%TAG2%%-RELEASE
-%%TAG2%%-38.args.python_major: 3
-%%TAG2%%-38.args.python_minor: 8
 
 tags+: %%TAG2%%-2/%%TAG2%%-RELEASE
 %%TAG2%%-2.args.python_major: 2

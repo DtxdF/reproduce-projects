@@ -9,4 +9,7 @@ set -xe
 set -o pipefail
 
 cat -- "${BASEDIR}/reproduce.conf.template" |\
-    sed -Ee "s/%%TAG1%%/${TAG1}/g" > "${BASEDIR}/../reproduce.conf"
+    sed -E \
+        -e "s/%%TAG1%%/${TAG1}/g" \
+        -e "s/%%TAG2%%/${TAG2}/g" \
+        -e "s/%%TAG3%%/${TAG3}/g" > "${BASEDIR}/../reproduce.conf"

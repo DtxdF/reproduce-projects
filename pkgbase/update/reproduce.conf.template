@@ -1,9 +1,30 @@
-tags: %%TAG1%%-minimal/%%TAG1%%-PKGBASE %%TAG1%%-full/%%TAG1%%-PKGBASE
 arch: amd64
 ignore_osversion: YES
 ignore_osarch: YES
 ignore_release: YES
 ignore_external: YES
-args: pkgbase_full
+args: pkgbase_full pkgbase_from
+
+tags: %%TAG1%%-minimal/%%TAG1%%-PKGBASE
 %%TAG1%%-minimal.args.pkgbase_full: 0
+%%TAG1%%-minimal.args.pkgbase_from: docker.io/freebsd/freebsd-runtime:%%TAG1%%
+
+tags+: %%TAG1%%-full/%%TAG1%%-PKGBASE
 %%TAG1%%-full.args.pkgbase_full: 1
+%%TAG1%%-full.args.pkgbase_from: docker.io/freebsd/freebsd-runtime:%%TAG1%%
+
+tags+: %%TAG2%%-minimal/%%TAG2%%-PKGBASE
+%%TAG2%%-minimal.args.pkgbase_full: 0
+%%TAG2%%-minimal.args.pkgbase_from: docker.io/freebsd/freebsd-runtime:%%TAG2%%
+
+tags+: %%TAG2%%-full/%%TAG2%%-PKGBASE
+%%TAG2%%-full.args.pkgbase_full: 1
+%%TAG2%%-full.args.pkgbase_from: docker.io/freebsd/freebsd-runtime:%%TAG2%%
+
+tags+: %%TAG3%%-minimal/%%TAG3%%-PKGBASE
+%%TAG3%%-minimal.args.pkgbase_full: 0
+%%TAG3%%-minimal.args.pkgbase_from: docker.io/freebsd/freebsd-runtime:%%TAG3%%
+
+tags+: %%TAG3%%-full/%%TAG3%%-PKGBASE
+%%TAG3%%-full.args.pkgbase_full: 1
+%%TAG3%%-full.args.pkgbase_from: docker.io/freebsd/freebsd-runtime:%%TAG3%%

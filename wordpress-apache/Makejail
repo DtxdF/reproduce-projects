@@ -1,4 +1,4 @@
 OPTION virtualnet=:<random> default
 OPTION nat
 
-INCLUDE /home/user/Devel/Makejails/wordpress/build-with-apache.makejail
+INCLUDE gh+AppJail-makejails/wordpress --file build-with-apache.makejail

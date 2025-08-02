@@ -12,5 +12,4 @@ cat -- "${BASEDIR}/reproduce.conf.template" |\
     sed -E \
         -e "s/%%TAG1%%/${TAG1}/g" \
         -e "s/%%TAG2%%/${TAG2}/g" \
-        -e "s/%%PHP1%%/${PHP1}/g" \
-        -e "s/%%PHP2%%/${PHP2}/g" > "${BASEDIR}/../reproduce.conf"
+        -e "s/%%PHP_DEFAULT%%/${PHP_DEFAULT}/g" > "${BASEDIR}/../reproduce.conf"

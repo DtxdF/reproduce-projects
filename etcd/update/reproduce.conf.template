@@ -18,9 +18,6 @@ tags+: %%TAG1%%-%%ETCD2%%/%%TAG1%%-RELEASE
 tags+: %%TAG1%%-%%ETCD3%%/%%TAG1%%-RELEASE
 %%TAG1%%-%%ETCD3%%.args.etcd_version: %%ETCD3%%
 
-tags+: %%TAG1%%-%%ETCD4%%/%%TAG1%%-RELEASE
-%%TAG1%%-%%ETCD4%%.args.etcd_version: %%ETCD4%%
-
 tags+: %%TAG2%%/%%TAG2%%-RELEASE
 
 tags+: %%TAG2%%-%%ETCD1%%/%%TAG2%%-RELEASE
@@ -31,6 +28,3 @@ tags+: %%TAG2%%-%%ETCD2%%/%%TAG2%%-RELEASE
 
 tags+: %%TAG2%%-%%ETCD3%%/%%TAG2%%-RELEASE
 %%TAG2%%-%%ETCD3%%.args.etcd_version: %%ETCD3%%
-
-tags+: %%TAG2%%-%%ETCD4%%/%%TAG2%%-RELEASE
-%%TAG2%%-%%ETCD4%%.args.etcd_version: %%ETCD4%%

@@ -1,0 +1,10 @@
+tags: %%TAG1%%-php%%PHP_TAG%%-fpm/%%TAG1%%-RELEASE %%TAG2%%-php%%PHP_TAG%%-fpm/%%TAG2%%-RELEASE
+arch: amd64
+remove_rc_vars: defaultrouter
+args: php_tag php_use_fpm php_ajspec
+%%TAG1%%-php%%PHP_TAG%%-fpm.args.php_tag: %%TAG1%%-%%PHP_TAG%%
+%%TAG1%%-php%%PHP_TAG%%-fpm.args.php_use_fpm: 1
+%%TAG1%%-php%%PHP_TAG%%-fpm.args.php_ajspec: reproduce+php:%%TAG1%%-%%PHP_TAG%%
+%%TAG2%%-php%%PHP_TAG%%-fpm.args.php_tag: %%TAG2%%-%%PHP_TAG%%
+%%TAG2%%-php%%PHP_TAG%%-fpm.args.php_use_fpm: 1
+%%TAG2%%-php%%PHP_TAG%%-fpm.args.php_ajspec: reproduce+php:%%TAG2%%-%%PHP_TAG%%

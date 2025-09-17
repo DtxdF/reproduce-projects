@@ -1,0 +1,24 @@
+# Options
+arch: amd64
+remove_rc_vars: defaultrouter
+
+# Arguments
+args: odoo_ver
+
+# Tags
+
+tags: %%TAG1%%/%%TAG1%%-RELEASE
+
+tags+: %%TAG1%%-%%ODOO1%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%ODOO1%%.args.odoo_ver: %%ODOO1%%
+
+tags+: %%TAG1%%-%%ODOO2%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%ODOO2%%.args.odoo_ver: %%ODOO2%%
+
+tags+: %%TAG2%%/%%TAG2%%-RELEASE
+
+tags+: %%TAG2%%-%%ODOO1%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%ODOO1%%.args.odoo_ver: %%ODOO1%%
+
+tags+: %%TAG2%%-%%ODOO2%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%ODOO2%%.args.odoo_ver: %%ODOO2%%

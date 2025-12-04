@@ -11,24 +11,32 @@ args+: python_minor
 
 tags: %%TAG1%%/%%TAG1%%-RELEASE
 
-tags+: %%TAG1%%-3/%%TAG1%%-RELEASE
-%%TAG1%%-3.args.python_major: 3
+tags+: %%TAG1%%-%%PYVER_MAJOR%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%PYVER_MAJOR%%.args.python_major: %%PYVER_MAJOR%%
 
-tags+: %%TAG1%%-311/%%TAG1%%-RELEASE
-%%TAG1%%-311.args.python_major: 3
-%%TAG1%%-311.args.python_minor: 11
+tags+: %%TAG1%%-%%PYVER_MAJOR%%%%PYVER1%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%PYVER_MAJOR%%%%PYVER1%%.args.python_major: %%PYVER_MAJOR%%
+%%TAG1%%-%%PYVER_MAJOR%%%%PYVER1%%.args.python_minor: %%PYVER1%%
 
-tags+: %%TAG1%%-312/%%TAG1%%-RELEASE
-%%TAG1%%-312.args.python_major: 3
-%%TAG1%%-312.args.python_minor: 12
+tags+: %%TAG1%%-%%PYVER_MAJOR%%%%PYVER2%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%PYVER_MAJOR%%%%PYVER2%%.args.python_major: %%PYVER_MAJOR%%
+%%TAG1%%-%%PYVER_MAJOR%%%%PYVER2%%.args.python_minor: %%PYVER2%%
 
-tags+: %%TAG1%%-310/%%TAG1%%-RELEASE
-%%TAG1%%-310.args.python_major: 3
-%%TAG1%%-310.args.python_minor: 10
+tags+: %%TAG1%%-%%PYVER_MAJOR%%%%PYVER3%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%PYVER_MAJOR%%%%PYVER3%%.args.python_major: %%PYVER_MAJOR%%
+%%TAG1%%-%%PYVER_MAJOR%%%%PYVER3%%.args.python_minor: %%PYVER3%%
 
-tags+: %%TAG1%%-39/%%TAG1%%-RELEASE
-%%TAG1%%-39.args.python_major: 3
-%%TAG1%%-39.args.python_minor: 9
+tags+: %%TAG1%%-%%PYVER_MAJOR%%%%PYVER4%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%PYVER_MAJOR%%%%PYVER4%%.args.python_major: %%PYVER_MAJOR%%
+%%TAG1%%-%%PYVER_MAJOR%%%%PYVER4%%.args.python_minor: %%PYVER4%%
+
+tags+: %%TAG1%%-%%PYVER_MAJOR%%%%PYVER5%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%PYVER_MAJOR%%%%PYVER5%%.args.python_major: %%PYVER_MAJOR%%
+%%TAG1%%-%%PYVER_MAJOR%%%%PYVER5%%.args.python_minor: %%PYVER5%%
+
+tags+: %%TAG1%%-%%PYVER_MAJOR%%%%PYVER6%%/%%TAG1%%-RELEASE
+%%TAG1%%-%%PYVER_MAJOR%%%%PYVER6%%.args.python_major: %%PYVER_MAJOR%%
+%%TAG1%%-%%PYVER_MAJOR%%%%PYVER6%%.args.python_minor: %%PYVER6%%
 
 tags+: %%TAG1%%-2/%%TAG1%%-RELEASE
 %%TAG1%%-2.args.python_major: 2
@@ -39,24 +47,32 @@ tags+: %%TAG1%%-27/%%TAG1%%-RELEASE
 
 tags+: %%TAG2%%/%%TAG2%%-RELEASE
 
-tags+: %%TAG2%%-3/%%TAG2%%-RELEASE
-%%TAG2%%-3.args.python_major: 3
+tags+: %%TAG2%%-%%PYVER_MAJOR%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%PYVER_MAJOR%%.args.python_major: %%PYVER_MAJOR%%
 
-tags+: %%TAG2%%-312/%%TAG2%%-RELEASE
-%%TAG2%%-312.args.python_major: 3
-%%TAG2%%-312.args.python_minor: 12
+tags+: %%TAG2%%-%%PYVER_MAJOR%%%%PYVER1%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%PYVER_MAJOR%%%%PYVER1%%.args.python_major: %%PYVER_MAJOR%%
+%%TAG2%%-%%PYVER_MAJOR%%%%PYVER1%%.args.python_minor: %%PYVER1%%
 
-tags+: %%TAG2%%-311/%%TAG2%%-RELEASE
-%%TAG2%%-311.args.python_major: 3
-%%TAG2%%-311.args.python_minor: 11
+tags+: %%TAG2%%-%%PYVER_MAJOR%%%%PYVER2%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%PYVER_MAJOR%%%%PYVER2%%.args.python_major: %%PYVER_MAJOR%%
+%%TAG2%%-%%PYVER_MAJOR%%%%PYVER2%%.args.python_minor: %%PYVER2%%
 
-tags+: %%TAG2%%-310/%%TAG2%%-RELEASE
-%%TAG2%%-310.args.python_major: 3
-%%TAG2%%-310.args.python_minor: 10
+tags+: %%TAG2%%-%%PYVER_MAJOR%%%%PYVER3%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%PYVER_MAJOR%%%%PYVER3%%.args.python_major: %%PYVER_MAJOR%%
+%%TAG2%%-%%PYVER_MAJOR%%%%PYVER3%%.args.python_minor: %%PYVER3%%
 
-tags+: %%TAG2%%-39/%%TAG2%%-RELEASE
-%%TAG2%%-39.args.python_major: 3
-%%TAG2%%-39.args.python_minor: 9
+tags+: %%TAG2%%-%%PYVER_MAJOR%%%%PYVER4%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%PYVER_MAJOR%%%%PYVER4%%.args.python_major: %%PYVER_MAJOR%%
+%%TAG2%%-%%PYVER_MAJOR%%%%PYVER4%%.args.python_minor: %%PYVER4%%
+
+tags+: %%TAG2%%-%%PYVER_MAJOR%%%%PYVER5%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%PYVER_MAJOR%%%%PYVER5%%.args.python_major: %%PYVER_MAJOR%%
+%%TAG2%%-%%PYVER_MAJOR%%%%PYVER5%%.args.python_minor: %%PYVER5%%
+
+tags+: %%TAG2%%-%%PYVER_MAJOR%%%%PYVER6%%/%%TAG2%%-RELEASE
+%%TAG2%%-%%PYVER_MAJOR%%%%PYVER6%%.args.python_major: %%PYVER_MAJOR%%
+%%TAG2%%-%%PYVER_MAJOR%%%%PYVER6%%.args.python_minor: %%PYVER6%%
 
 tags+: %%TAG2%%-2/%%TAG2%%-RELEASE
 %%TAG2%%-2.args.python_major: 2

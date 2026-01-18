@@ -13,7 +13,7 @@ for tag in %%TAG1%% %%TAG2%%; do
     fi
 
     appjail fetch destroy -v ${tag} ${tag}-minimal > /dev/null 2>&1
-    appjail fetch pkgbase -v ${tag} -r ${tag}-minimal FreeBSD-set-minimal-jail || exit $?
+    appjail fetch pkgbase -v ${tag} -r ${tag}-minimal FreeBSD-set-base-jail || exit $?
 
     appjail fetch destroy -v ${tag} ${tag}-full > /dev/null 2>&1
     appjail fetch pkgbase -v ${tag} -r ${tag}-full FreeBSD-set-base FreeBSD-kernel-generic || exit $?

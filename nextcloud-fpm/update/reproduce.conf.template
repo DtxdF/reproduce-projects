@@ -6,4 +6,4 @@ remove_rc_vars: defaultrouter
 
 tags: %%TAG1%%-php%%PHP_TAG%%-fpm/%%TAG1%%-RELEASE
 
-tags+: %%TAG2%%-php%%PHP_TAG%%-fpm/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-php%%PHP_TAG%%-fpm/%%TAG2%%

@@ -12,5 +12,5 @@ args+: librewolf_enable_webcamd
 tags: %%TAG1%%-full/%%TAG1%%-RELEASE
 %%TAG1%%-full.args.librewolf_enable_webcamd: 1
 
-tags+: %%TAG2%%-full/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-full/%%TAG2%%
 %%TAG2%%-full.args.librewolf_enable_webcamd: 1

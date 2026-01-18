@@ -1,4 +1,4 @@
-tags: %%TAG1%%-fpm/%%TAG1%%-RELEASE %%TAG2%%-fpm/%%TAG2%%-RELEASE
+tags: %%TAG1%%-fpm/%%TAG1%%-RELEASE %%TAG2%%-fpm/%%TAG2%%
 arch: amd64
 remove_rc_vars: defaultrouter
 args: php_tag php_use_fpm php_ajspec

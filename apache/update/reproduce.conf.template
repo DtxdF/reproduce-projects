@@ -22,12 +22,12 @@ tags+: %%TAG1%%-php%%PHP1%%/%%TAG1%%-RELEASE
 %%TAG1%%-php%%PHP1%%.args.apache_with_php: 1
 %%TAG1%%-php%%PHP1%%.args.apache_php_version: %%PHP1%%
 
-# %%TAG2%%-RELEASE
+# %%TAG2%%
 
-tags+: %%TAG2%%/%%TAG2%%-RELEASE
-tags+: %%TAG2%%-php%%PHP3%%/%%TAG2%%-RELEASE
-tags+: %%TAG2%%-php%%PHP2%%/%%TAG2%%-RELEASE
-tags+: %%TAG2%%-php%%PHP1%%/%%TAG2%%-RELEASE
+tags+: %%TAG2%%/%%TAG2%%
+tags+: %%TAG2%%-php%%PHP3%%/%%TAG2%%
+tags+: %%TAG2%%-php%%PHP2%%/%%TAG2%%
+tags+: %%TAG2%%-php%%PHP1%%/%%TAG2%%
 
 %%TAG2%%-php%%PHP3%%.args.apache_with_php: 1
 %%TAG2%%-php%%PHP3%%.args.apache_php_version: %%PHP3%%

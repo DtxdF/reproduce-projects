@@ -14,7 +14,7 @@ tags+: %%TAG1%%-fpm/%%TAG1%%-RELEASE
 %%TAG1%%-fpm.args.php_use_fpm: 1
 %%TAG1%%-fpm.args.php_ajspec: reproduce+php:%%TAG1%%-%%PHP_DEFAULT%%
 
-tags+: %%TAG2%%-fpm/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-fpm/%%TAG2%%
 %%TAG2%%-fpm.args.php_tag: %%TAG2%%-%%PHP_DEFAULT%%
 %%TAG2%%-fpm.args.php_use_fpm: 1
 %%TAG2%%-fpm.args.php_ajspec: reproduce+php:%%TAG2%%-%%PHP_DEFAULT%%

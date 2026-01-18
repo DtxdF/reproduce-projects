@@ -14,7 +14,7 @@ tags: %%TAG1%%-php%%PHP_TAG%%-fpm/%%TAG1%%-RELEASE
 %%TAG1%%-php%%PHP_TAG%%-fpm.args.php_use_fpm: 1
 %%TAG1%%-php%%PHP_TAG%%-fpm.args.php_ajspec: reproduce+php:%%TAG1%%-%%PHP_TAG%%
 
-tags+: %%TAG2%%-php%%PHP_TAG%%-fpm/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-php%%PHP_TAG%%-fpm/%%TAG2%%
 %%TAG2%%-php%%PHP_TAG%%-fpm.args.php_tag: %%TAG2%%-%%PHP_TAG%%
 %%TAG2%%-php%%PHP_TAG%%-fpm.args.php_use_fpm: 1
 %%TAG2%%-php%%PHP_TAG%%-fpm.args.php_ajspec: reproduce+php:%%TAG2%%-%%PHP_TAG%%

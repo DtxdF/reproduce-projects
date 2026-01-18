@@ -11,6 +11,6 @@ tags+: %%TAG1%%-apache/%%TAG1%%-RELEASE
 %%TAG1%%-apache.args.apache_tag: %%TAG1%%-php%%PHP_DEFAULT%%
 %%TAG1%%-apache.args.apache_ajspec: reproduce+apache:%%TAG1%%-php%%PHP_DEFAULT%%
 
-tags+: %%TAG2%%-apache/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-apache/%%TAG2%%
 %%TAG2%%-apache.args.apache_tag: %%TAG2%%-php%%PHP_DEFAULT%%
 %%TAG2%%-apache.args.apache_ajspec: reproduce+apache:%%TAG2%%-php%%PHP_DEFAULT%%

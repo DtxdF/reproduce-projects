@@ -22,16 +22,16 @@ tags+: %%TAG1%%-%%GO2%%/%%TAG1%%-RELEASE
 tags+: %%TAG1%%-%%GO1%%/%%TAG1%%-RELEASE
 %%TAG1%%-%%GO1%%.args.go_version: %%GO1%%
 
-tags+: %%TAG2%%/%%TAG2%%-RELEASE
+tags+: %%TAG2%%/%%TAG2%%
 
-tags+: %%TAG2%%-%%GO4%%/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-%%GO4%%/%%TAG2%%
 %%TAG2%%-%%GO4%%.args.go_version: %%GO4%%
 
-tags+: %%TAG2%%-%%GO3%%/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-%%GO3%%/%%TAG2%%
 %%TAG2%%-%%GO3%%.args.go_version: %%GO3%%
 
-tags+: %%TAG2%%-%%GO2%%/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-%%GO2%%/%%TAG2%%
 %%TAG2%%-%%GO2%%.args.go_version: %%GO2%%
 
-tags+: %%TAG2%%-%%GO1%%/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-%%GO1%%/%%TAG2%%
 %%TAG2%%-%%GO1%%.args.go_version: %%GO1%%

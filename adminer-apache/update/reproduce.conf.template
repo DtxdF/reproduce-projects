@@ -1,4 +1,4 @@
-tags: %%TAG1%%-apache/%%TAG1%%-RELEASE %%TAG2%%-apache/%%TAG2%%-RELEASE
+tags: %%TAG1%%-apache/%%TAG1%%-RELEASE %%TAG2%%-apache/%%TAG2%%
 arch: amd64
 remove_rc_vars: defaultrouter
 args: apache_tag apache_ajspec

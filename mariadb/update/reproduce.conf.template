@@ -19,14 +19,14 @@ tags+: %%TAG1%%-%%MARIADB1%%/%%TAG1%%-RELEASE
 tags+: %%TAG1%%-%%MARIADB4%%/%%TAG1%%-RELEASE
 %%TAG1%%-%%MARIADB4%%.args.mariadb_version: %%MARIADB4%%
 
-tags+: %%TAG2%%-%%MARIADB3%%/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-%%MARIADB3%%/%%TAG2%%
 %%TAG2%%-%%MARIADB3%%.args.mariadb_version: %%MARIADB3%%
 
-tags+: %%TAG2%%-%%MARIADB2%%/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-%%MARIADB2%%/%%TAG2%%
 %%TAG2%%-%%MARIADB2%%.args.mariadb_version: %%MARIADB2%%
 
-tags+: %%TAG2%%-%%MARIADB1%%/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-%%MARIADB1%%/%%TAG2%%
 %%TAG2%%-%%MARIADB1%%.args.mariadb_version: %%MARIADB1%%
 
-tags+: %%TAG2%%-%%MARIADB4%%/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-%%MARIADB4%%/%%TAG2%%
 %%TAG2%%-%%MARIADB4%%.args.mariadb_version: %%MARIADB4%%

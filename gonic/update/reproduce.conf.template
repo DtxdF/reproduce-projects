@@ -22,12 +22,12 @@ tags+: %%TAG1%%-minimal/%%TAG1%%-RELEASE
 %%TAG1%%-minimal.args.gonic_jukebox: 0
 %%TAG1%%-minimal.args.gonic_transcode_audio: 0
 
-tags+: %%TAG2%%-full/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-full/%%TAG2%%
 %%TAG2%%-full.args.gonic_options: ${REPRODUCE_PROJECTDIR}/options/options.makejail
 %%TAG2%%-full.args.gonic_jukebox: 1
 %%TAG2%%-full.args.gonic_transcode_audio: 1
 
-tags+: %%TAG2%%-minimal/%%TAG2%%-RELEASE
+tags+: %%TAG2%%-minimal/%%TAG2%%
 %%TAG2%%-minimal.args.gonic_options: ${REPRODUCE_PROJECTDIR}/options/options.makejail
 %%TAG2%%-minimal.args.gonic_jukebox: 0
 %%TAG2%%-minimal.args.gonic_transcode_audio: 0
